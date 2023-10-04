@@ -1,0 +1,68 @@
+
+.number-button{
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius:50px;
+  cursor: pointer ;
+  margin: 5px 10px;
+  transition: 1s;
+
+}
+.operator-button{
+  border: black;
+  background-color:orange;
+  color: black;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius:50px;
+  cursor: pointer ;
+  margin: 5px 10px;
+  transition: 1s;
+  
+}
+.screen{
+  border: black;
+  background-color:rgb(240, 240, 240);
+  color: black;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius:50px;
+  cursor: pointer ;
+}
+.screen2{
+  border: none;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius:50px;
+  cursor: pointer ;
+}
+body{
+  font-family:monospace;
+  background-color: black;
+}
+
+.js-focus:focus{
+  background-color: gray;
+  color: black;
+}
+
+.js-focus:hover{
+  background-color: rgb(150, 150, 150);
+}
