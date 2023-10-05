@@ -1,8 +1,8 @@
 
 .number-button{
   border: none;
-  background-color: rgb(51, 51, 51);
-  color: white;
+  background-color:lightcyan;
+  color:darkblue;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -16,8 +16,8 @@
 }
 .operator-button{
   border: black;
-  background-color:orange;
-  color: black;
+  background-color:lightyellow;
+  color: darkblue;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -31,8 +31,8 @@
 }
 .screen{
   border: black;
-  background-color:rgb(240, 240, 240);
-  color: black;
+  background-color:lightcyan;
+  color: darkblue;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -43,8 +43,8 @@
 }
 .screen2{
   border: none;
-  background-color: rgb(51, 51, 51);
-  color: white;
+  background-color:lightyellow;
+  color: darkblue;
   padding-top: 10px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -54,8 +54,13 @@
   cursor: pointer ;
 }
 body{
-  font-family:monospace;
-  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .js-focus:focus{
@@ -65,4 +70,10 @@ body{
 
 .js-focus:hover{
   background-color: rgb(150, 150, 150);
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+
+  border: black;
 }
