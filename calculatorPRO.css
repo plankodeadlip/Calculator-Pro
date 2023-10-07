@@ -12,7 +12,7 @@
   cursor: pointer ;
   margin: 5px 10px;
   transition: 1s;
-
+  margin: 10px 30px;
 }
 .operator-button{
   border: black;
@@ -27,7 +27,7 @@
   cursor: pointer ;
   margin: 5px 10px;
   transition: 1s;
-  
+  margin: 10px 30px;
 }
 .screen{
   border: black;
@@ -76,4 +76,12 @@ body{
   flex-direction: column;
 
   border: black;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black; 
+  border-radius: 10px; 
+  padding: 10px; 
+  background-color: darkcyan;
 }
